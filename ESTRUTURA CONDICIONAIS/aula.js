@@ -1,1 +1,10 @@
-const camisetaPreta = true;
+const numero = 10;
+const numeroDivisivelPor5 = (numero % 5) === 0;
+
+if (numero === 0) {
+    console.log('o numero não é válido');
+} else if (numeroDivisivelPor5){
+    console.log('Sim');
+} else {
+    console.log('Não');
+}
